@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team Slider</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
+    <style>
+        @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            /* background: #f60642; */
+            background: #FFFFFF;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- STARTS HERE -->
+    <div class="container___slider teamPUJ">
+        <div class="content_sldr">
+            <div class="cards js-cards">
+                <!-- CARD 01 -->
+                <div class="card js-card card-1 current-item" data-position="1">
+                    <img alt="Equipo CAE+E" class="card-img" src="https://caee.javeriana.edu.co/documents/2679394/5036053/Equipo.jpeg/7e6a47c6-8f22-e4cb-fd63-178c76f443d3" />
+                    <div class="nameTeamM">
+                        <h5>Equipo CAE+E <i class="bi bi-plus-circle"></i></h5>
+                    </div>
+                    <div class="x-fade-entry">
+                        <div class="x-fade-content">
+                            <div class="infoBody"><button class="close closeBody"><span aria-hidden="true">×</span></button>
+                                <h5>Equipo CAE+E</h5>
+                                <p>Somos un equipo interdisciplinar dispuestos a acompañar a nuestros profesores en sus actividades académicas de docencia.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- CARD 02 -->
+                <div class="card js-card card-2 next-item" data-position="2">
+                    <img alt="Sandra Patricia Romero" class="card-img" src="https://caee.javeriana.edu.co/documents/2679394/5036053/Sandra.png/ccf7419f-6650-428a-4830-5935fcb90dd6" />
+                    <div class="nameTeamM">
+                        <h5>Sandra Patricia Romero Velásquez <i class="bi bi-plus-circle"></i></h5>
+                    </div>
+                    <div class="x-fade-entry">
+                        <div class="x-fade-content">
+                            <div class="infoBody">
+                                <button class="close closeBody"><span aria-hidden="true">×</span></button>
+                                <h5>Sandra Patricia Romero Velásquez</h5>
+                                <p>Directora del CAE+E</p>
+                                <p><small class="text-muted">sandrapromero@javeriana.edu.co</small></p>
+                                <p>Psicóloga de la Universidad Santo Tomás, Especialista en Docencia Universitaria y Magíster en Educación de la Pontificia Universidad Javeriana. Lidera la gestión estratégica del Centro, las relaciones interinstitucionales y participa en proyectos institucionales como la reforma curricular y en redes como CINDA. Sus campos de interés son el psicoanálisis, los estudios de currículo y la educación superior.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- CARD 03 -->
+                <div class="card js-card card-3" data-position="3">
+                    <img alt="María Paula Segura" class="card-img" src="https://caee.javeriana.edu.co/documents/2679394/5036053/MPSD.png/3fb8827e-6d8f-adce-67f5-c88d9d453549" />
+                    <div class="nameTeamM">
+                        <h5>María Paula Segura Dueñas <i class="bi bi-plus-circle"></i></h5>
+                    </div>
+                    <div class="x-fade-entry">
+                        <div class="x-fade-content">
+                            <div class="infoBody">
+                                <button class="close closeBody"><span aria-hidden="true">×</span></button>
+                                <h5>María Paula Segura Dueñas</h5>
+                                <p>Profesional de comunicaciones</p>
+                                <p><small class="text-muted">comunicacionescaee@javeriana.edu.co</small></p>
+                                <p>Comunicadora social con énfasis en producción audiovisual, producción editorial y multimedial y especialista en liderazgo para la gestión social de la Pontificia Universidad Javeriana. Propende por la creación de contenido audiovisual, editorial y multimedia que busca promover la reflexión, el debate y la divulgación de experiencias en materia de innovación educativa y fortalecimiento de prácticas pedagógicas en Educación Superior.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- CARD 04 -->
+                <div class="card js-card card-4" data-position="4">
+                    <img alt="María Isabel Patiño" class="card-img" src="https://caee.javeriana.edu.co/documents/2679394/5036053/MIP.png/b7379c38-a7b5-ddd8-2f4c-f3fd495d336e" />
+                    <div class="nameTeamM">
+                        <h5>María Isabel Patiño Gómez <i class="bi bi-plus-circle"></i></h5>
+                    </div>
+                    <div class="x-fade-entry">
+                        <div class="x-fade-content">
+                            <div class="infoBody">
+                                <button class="close closeBody"><span aria-hidden="true">×</span></button>
+                                <h5>María Isabel Patiño Gómez</h5>
+                                <p>Coordinadora Formación Docente</p>
+                                <p><small class="text-muted">mi.patinog@javeriana.edu.co</small></p>
+                                <p>Antropóloga de la Universidad de los Andes, con maestría en Educación de la Pontificia Universidad Javeriana. Lidera espacios de acompañamiento a profesores y unidades académicas en los cuales, a través de procesos de construcción conjunta con los profesores, se busca contribuir a fortalecer sus prácticas de enseñanza reflexionando sobre estrategias de enseñanza y evaluación. Actualmente participa también en los proyectos de caracterización de los profesores de la universidad.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- CARD 05 -->
+                <div class="card js-card card-5" data-position="5">
+                    <img alt="María Isabel Ramírez" class="card-img" src="https://caee.javeriana.edu.co/documents/2679394/5036053/MIR.png/c71786f1-b2ff-8b30-e26d-51a504020f0e" />
+                    <div class="nameTeamM">
+                        <h5>María Isabel Ramírez Garzón <i class="bi bi-plus-circle"></i></h5>
+                    </div>
+                    <div class="x-fade-entry">
+                        <div class="x-fade-content">
+                            <div class="infoBody">
+                                <button class="close closeBody"><span aria-hidden="true">×</span></button>
+                                <h5>María Isabel Ramírez Garzón</h5>
+                                <p>Profesional Innovación Educativa</p>
+                                <p><small class="text-muted">mariai-ramirezg@javeriana.edu.co</small></p>
+                                <p>Licenciada en matemáticas de la Universidad Distrital, Magíster y Doctora en Educación de la Universidad de los Andes. Sus áreas de trabajo e interés se relacionan con la innovación educativa, la educación superior y la evaluación. Coordina y desarrolla espacios de acompañamiento en proyectos de innovación como los círculos de innovación, comunidades de práctica y el Foro Korczak de innovación educativa.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- CARD 06 -->
+                <div class="card js-card card-6" data-position="6">
+                    <img alt="Diana Patricia Montoya" class="card-img" src="https://caee.javeriana.edu.co/documents/2679394/5036053/DianaM.png/5e9c2fd2-e4ce-9ba6-f1d2-34c6e14f3c73" />
+                    <div class="nameTeamM">
+                        <h5>Diana Patricia Montoya Cardona <i class="bi bi-plus-circle"></i></h5>
+                    </div>
+                    <div class="x-fade-entry">
+                        <div class="x-fade-content">
+                            <div class="infoBody">
+                                <button class="close closeBody"><span aria-hidden="true">×</span></button>
+                                <h5>Diana Patricia Montoya Cardona</h5>
+                                <p>Coordinadora Monitoreo Educativo</p>
+                                <p><small class="text-muted">dianamontoya@javeriana.edu.co</small></p>
+                                <p>Psicóloga de la Universidad Nacional de Colombia, con maestría en Investigación Educativa y Social del UCL Institute of Education (Reino Unido). Con amplía experiencia en la evaluación de ambientes de aprendizaje y de programas educativos. Apoya el diseño metodológico, la recolección y el análisis de información del OPPE.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- CARD 07 -->
+                <div class="card js-card card-7" data-position="7">
+                    <img alt="Ana Carolina Useche" class="card-img" src="https://caee.javeriana.edu.co/documents/2679394/5036053/Caro.png/eb5e801d-71e5-e3a7-91bc-5921eb49b5de" />
+                    <div class="nameTeamM">
+                        <h5>Ana Carolina Useche <i class="bi bi-plus-circle"></i></h5>
+                    </div>
+                    <div class="x-fade-entry">
+                        <div class="x-fade-content">
+                            <div class="infoBody">
+                                <button class="close closeBody"><span aria-hidden="true">×</span></button>
+                                <h5>Ana Carolina Useche</h5>
+                                <p>Profesional de Evaluación</p>
+                                <p><small class="text-muted">useche-a01@javeriana.edu.co</small></p>
+                                <p>Psicóloga de la Universidad de los Andes, con maestría en Desarrollo de Niños y Adolescentes de la Universidad de Utrecht y doctorado en Psicología Educativa de la Universidad de la Florida. Acompaña a profesores en la reflexión sobre estrategias de enseñanza y evaluación para la transformación de sus prácticas docentes. Sus áreas de interés se relacionan con la investigación, sistematización y evaluación de proyectos educativos.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- CARD 08 -->
+                <div class="card js-card card-8" data-position="8">
+                    <img alt="Diana Barón" class="card-img" src="https://caee.javeriana.edu.co/documents/2679394/5036053/DianaB.png/f09a5c8e-a016-fadf-0564-38df198a91b9" />
+                    <div class="nameTeamM">
+                        <h5>Diana Barón <i class="bi bi-plus-circle"></i></h5>
+                    </div>
+                    <div class="x-fade-entry">
+                        <div class="x-fade-content">
+                            <div class="infoBody">
+                                <button class="close closeBody"><span aria-hidden="true">×</span></button>
+                                <h5>Diana Barón</h5>
+                                <p>Profesional de Formación Docente</p>
+                                <p><small class="text-muted">dabaron@javeriana.edu.co</small></p>
+                                <p>Comunicadora social y periodista de la Universidad de la Sabana, especialista y magíster en Docencia Mediada con las TIC de la Universidad San Buenaventura. Apoya estrategias de acompañamiento y trabajo colaborativo con profesores y unidades, explorando diferentes formas de enseñar y aprender desde las particularidades de sus disciplinas, en donde las TIC pueden adquirir un verdadero sentido pedagógico.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- CARD 09 -->
+                <div class="card js-card card-9" data-position="9">
+                    <img alt="Gerardo Rey Arévalo" class="card-img" src="https://caee.javeriana.edu.co/documents/2679394/5036053/Ger.png/0318dc88-0093-05de-8348-bc8bda30209b" />
+                    <div class="nameTeamM">
+                        <h5>Gerardo Rey Arévalo <i class="bi bi-plus-circle"></i></h5>
+                    </div>
+                    <div class="x-fade-entry">
+                        <div class="x-fade-content">
+                            <div class="infoBody">
+                                <button class="close closeBody"><span aria-hidden="true">×</span></button>
+                                <h5>Gerardo Rey Arévalo</h5>
+                                <p>Profesional de Formación Docente</p>
+                                <p><small class="text-muted">grey@javeriana.edu.co</small></p>
+                                <p>Psicólogo de la Pontificia Universidad Javeriana y maestro en Educación de la Universidad de los Andes. Acompaña procesos de reflexión sobre prácticas pedagógicas en unidades o grupos de profesores de las facultades y apoya las actividades del Foro Korczak. Sus intereses se relacionan con el apoyo al mejoramiento de la enseñanza y la incorporación de TIC con sentido pedagógico.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- CARD 10 -->
+                <div class="card js-card card-10" data-position="10">
+                    <img alt="Miguel Fernando Moreno" class="card-img" src="https://caee.javeriana.edu.co/documents/2679394/5036053/Miguel.png/bc5c4818-f06e-39de-1471-8a0684ddbcef" />
+                    <div class="nameTeamM">
+                        <h5>Miguel Fernando Moreno Franco <i class="bi bi-plus-circle"></i></h5>
+                    </div>
+                    <div class="x-fade-entry">
+                        <div class="x-fade-content">
+                            <div class="infoBody">
+                                <button class="close closeBody"><span aria-hidden="true">×</span></button>
+                                <h5>Miguel Fernando Moreno Franco</h5>
+                                <p>Profesional Innovación Educativa</p>
+                                <p><small class="text-muted">mo-miguel@javeriana.edu.co</small></p>
+                                <p>Psicólogo y especialista en Estado, Políticas Públicas y Desarrollo, y doctor en educación de la Universidad de los Andes. Magister en Intervención en Sistemas Humanos de la Universidad Central. En el Centro participa en el proyecto de Innovación Educativa, que se centra en la gestión de comunidades de práctica, círculos de innovación educativa y en el acompañamiento a profesores. Además, está vinculado al proyecto de caracterización de profesores de la universidad.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- CARD 11 -->
+                <div class="card js-card card-11" data-position="11">
+                    <img alt="Jaime Alejandro Rodríguez" class="card-img" src="https://caee.javeriana.edu.co/documents/2679394/5036053/Jaime+Alejandro.png/905d169f-fd12-cdad-035f-39c2091dcaee" />
+                    <div class="nameTeamM">
+                        <h5>Jaime Alejandro Rodríguez <i class="bi bi-plus-circle"></i></h5>
+                    </div>
+                    <div class="x-fade-entry">
+                        <div class="x-fade-content">
+                            <div class="infoBody">
+                                <button class="close closeBody"><span aria-hidden="true">×</span></button>
+                                <h5>Jaime Alejandro Rodríguez</h5>
+                                <p>Coordinador Observatorio de Prácticas Pedagógicas Emergentes (OPPE)</p>
+                                <p><small class="text-muted">jarodri@javeriana.edu.co</small></p>
+                                <p>Profesor de cátedra de la Facultad de Ciencias Sociales. Doctor en Filología de la Universidad Nacional de Educación a Distancia, Magíster en Literatura de la Pontificia Universidad Javeriana. Sus áreas de trabajo se relacionan con la cibercultura, las narrativas contemporáneas y la educación virtual.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- CARD 12 -->
+                <div class="card js-card card-12" data-position="12">
+                    <img alt="Sandra Milena Escobar" class="card-img" src="https://caee.javeriana.edu.co/documents/2679394/5036053/SandraEscobar.png/9468c22c-740c-24d0-3d58-6f501ac11bae" />
+                    <div class="nameTeamM">
+                        <h5>Sandra Milena Escobar Villamizar <i class="bi bi-plus-circle"></i></h5>
+                    </div>
+                    <div class="x-fade-entry">
+                        <div class="x-fade-content">
+                            <div class="infoBody">
+                                <button class="close closeBody"><span aria-hidden="true">×</span></button>
+                                <h5>Sandra Milena Escobar Villamizar</h5>
+                                <p>Profesional de Asesoría Educativa</p>
+                                <p><small class="text-muted">sandram.escobar@javeriana.edu.co</small></p>
+                                <p>Trabajadora Social y Magíster en Pedagogía de la Universidad Industrial de Santander. Participa en el OPPE, en el comité coordinador del Foro Korczak y en proyectos de innovación educativa como el Laboratorio de Innovación Evaluación para la Facultad de Ciencias (LIEFC); entre sus intereses se destacan la innovación educativa, interacción educativa y los procesos de innovación educativa mediados por <i>Design Thinking</i>.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- CARD 13 -->
+                <div class="card js-card card-13" data-position="13">
+                    <img alt="Carolina Lenis" class="card-img" src="https://caee.javeriana.edu.co/documents/2679394/5036053/carolina.jpeg/ef4366b1-03c3-8168-299f-bcf8f6cc91e8" />
+                    <div class="nameTeamM">
+                        <h5>Carolina Lenis <i class="bi bi-plus-circle"></i></h5>
+                    </div>
+                    <div class="x-fade-entry">
+                        <div class="x-fade-content">
+                            <div class="infoBody">
+                                <button class="close closeBody"><span aria-hidden="true">×</span></button>
+                                <h5>Carolina Lenis</h5>
+                                <p>Profesional Asesoría educativa</p>
+                                <p><small class="text-muted">dianac.lenis@javeriana.edu.co</small></p>
+                                <p>Psicóloga de la Universidad Cooperativa de Colombia, maestra en educación y en periodismo de la Universidad de los Andes. Colabora con profesores inquietos por la didáctica, los retos que les plantea la enseñanza en sus disciplinas o la mediación de las tecnologías en los procesos de formación. Acompaña los procesos de divulgación del Observatorio, el proyecto de la página web y el Foro Korczak de innovación educativa.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- CARD 14 -->
+                <div class="card js-card card-14 prev-item" data-position="14">
+                    <img alt="Johanna Gómez Castro" class="card-img" src="https://caee.javeriana.edu.co/documents/2679394/5036053/Joha.png/4d27b557-cf5c-dcb2-2e6f-97d7c6379120" />
+                    <div class="nameTeamM">
+                        <h5>Johanna Gómez Castro <i class="bi bi-plus-circle"></i></h5>
+                    </div>
+                    <div class="x-fade-entry">
+                        <div class="x-fade-content">
+                            <div class="infoBody">
+                                <button class="close closeBody"><span aria-hidden="true">×</span></button>
+                                <h5>Johanna Gómez Castro</h5>
+                                <p>Auxiliar administrativa</p>
+                                <p><small class="text-muted">caee@javeriana.edu.co</small></p>
+                                <p>Tecnóloga en Gestión Empresarial. Apoya y desarrolla actividades de gestión logística y documental de los proyectos del CAE+E.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="x-prev" class="navigation"></div>
+            <div id="x-next" class="navigation right"></div>
+        </div>
+    </div>
+    
+    <style>
+        @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+        
+        .container___slider{
+            max-width: 100%;
+            height: 460px;
+            margin: auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 30px 10px;
+        }
+        .teamPUJ .content_sldr {
+            width: 100%;
+            max-width: 960px;
+            height: 100%;
+            max-height: 400px;
+            transform-style: preserve-3d;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .teamPUJ .cards {
+            position: relative;
+            width: 100%;
+            height: 100%;
+        }
+        .teamPUJ .navigation {
+            width: 18%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 4;
+            cursor: pointer;
+        }
+        .teamPUJ .navigation.right {
+            left: inherit;
+            right: 0;
+        }
+        .teamPUJ .navigation::after {
+            width: 36px;
+            height: 36px;
+            content: "";
+            background-repeat: no-repeat;
+            background-position: center center;
+            position: absolute;
+            top: calc(50% - 18px);
+            right: 40px;
+        }
+        .teamPUJ .navigation::after {
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23d9801e' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+        }
+        .teamPUJ .navigation.right::after {
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23d9801e' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+            right: inherit;
+            left: 40px;
+        }
+        .teamPUJ .card {
+            position: absolute;
+            width: 600px;
+            height: 100%;
+            left: 0;
+            right: 0;
+            margin: auto;
+            cursor: inherit;
+            transition: transform 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+            border: none;
+            background-color: gray;
+            border-radius: 10px;
+            overflow: hidden;
+            opacity: 0;
+        }
+        .teamPUJ .card.current-item {
+            z-index: 3;
+            opacity: 1;
+            box-shadow: 0 0 15px rgba(0, 0, 0, .30);
+        }
+        .teamPUJ .prev-item {
+            transform: translateX(-25%) scale(0.9);
+            opacity: 1;
+            z-index: 1;
+        }
+        .teamPUJ .next-item {
+            transform: translateX(25%) scale(0.9);
+            opacity: 1;
+            z-index: 1;
+        }
+        .teamPUJ .card img {
+            width: 100%;
+            height: 100%;
+            border-radius: 10px;
+            -o-object-fit: cover;
+            object-fit: cover;
+            -o-object-position: top;
+            object-position: top;
+        }
+        .teamPUJ .nameTeamM {
+            position: absolute;
+            bottom: 1rem;
+            width: 80%;
+            margin: 0 10%;
+            text-align: center;
+        }
+        .teamPUJ .nameTeamM h5 {
+            color: white;
+            letter-spacing: 1px;
+            text-shadow: 1px 1px 0 rgb(0 0 0 / 50%)
+        }
+        .x-fade-entry {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            cursor: pointer;
+        }
+        .x-fade-content {
+            background-color: white;
+            height: 100%;
+            display: none;
+            align-items: center;
+            text-align: center;
+        }
+        .infoBody h5 {
+            color: #d9801e;
+        }
+        .infoBody {
+            padding: 1.25rem 2.2rem;
+            display: flex;
+            height: 100%;
+            flex-direction: column;
+            justify-content: center;
+            font-weight: 300;
+            align-self: center;
+        }
+        .closeBody {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+        }
+        .teamPUJ .fade-content {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border-radius: 10px;
+            background-color: white;
+            padding: 2rem;
+            text-align: center;
+            display: none;
+        }
+        
+        @media only screen and (max-width: 576px) {
+            .container___slider.teamPUJ {
+                max-height: 580px;
+                height: 580px;
+            }
+            .teamPUJ .card{
+                width: 290px;
+            }
+            .teamPUJ .content_sldr {
+                max-height: inherit;
+            }
+            .teamPUJ .prev-item {
+                transform: translateX(-15%) scale(0.9);
+            }
+            .teamPUJ .next-item {
+                transform: translateX(15%) scale(0.9);
+            }
+            .teamPUJ .navigation {
+                width: 14%;
+            }
+            .teamPUJ .navigation::after {
+                right: 0px;
+            }
+            .teamPUJ .navigation.right::after {
+                left: 0px;
+            }
+            .infoBody {
+                line-height: 1.1rem;
+                font-size: 90%;
+            }
+        }
+    </style>
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        $(document).ready(activitiesReady);
+        function activitiesReady() {
+            $(document).on('click', '.x-fade-entry', fadeEntry);
+            $(document).on('click', '#x-next', nextCard);
+            $(document).on('click', '#x-prev', prevCard);
+        }
+        
+        var boolE = false;
+        
+        fadeEntry = function(e) {
+            console.log('Entry')
+            var $entry = $(this);
+            if (boolE == false) {
+                $(this).find('.x-fade-content').show();
+                boolE = true;
+            } else {
+                $('.x-fade-content').hide();
+                boolE = false;
+            }
+        }
+        
+        var ss = [$('.js-card').length];
+        
+        nextCard = function(e) {
+            $('.x-fade-content').hide();
+            boolE = false;
+            console.log('TotalCards ' + ss);
+            
+            var dp = $('.current-item').data('position');
+            console.log('Data position = ' + dp);
+            
+            var nextCard = '.card-' + (dp + 1);
+            var nextNextCard = '.card-' + (dp + 2);
+            if (dp >= 14){
+                dp = 2;
+                var nextCard = '.card-1';
+                var nextNextCard = '.card-2';
+            } else if (dp == 13) {
+                dp = 1;
+                var nextNextCard = '.card-1';
+            }
+            
+            $('.prev-item').removeClass('prev-item');
+            $('.current-item').addClass('prev-item').removeClass('current-item');
+            $(nextCard).addClass('current-item').removeClass('next-item');
+            $(nextNextCard).addClass('next-item');
+        }
+        
+        prevCard = function(e) {
+            console.log('prevCard');
+            $('.x-fade-content').hide();
+            boolE = false;
+            console.log('TotalCards ' + ss);
+            
+            var dp = $('.current-item').data('position');
+            console.log('Data position = ' + dp);
+            
+            var prevCard = '.card-' + (dp - 1);
+            var prevPrevCard = '.card-' + (dp - 2);
+            if (dp <= 1){
+                dp = 13;
+                var prevCard = '.card-14';
+                var prevPrevCard = '.card-13';
+            } else if (dp == 2) {
+                dp = 14;
+                var prevPrevCard = '.card-14';
+            }
+            
+            $('.next-item').removeClass('next-item');
+            $('.current-item').addClass('next-item').removeClass('current-item');
+            $(prevCard).addClass('current-item').removeClass('prev-item');
+            $(prevPrevCard).addClass('prev-item');
+            console.log('Data position = ' + dp);
+        }
+    </script>    
+</body>
+</html>
